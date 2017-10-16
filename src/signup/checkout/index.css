@@ -1,0 +1,9 @@
+.checkout{
+  width:100%;
+  text-align: center;
+}
+button[type=submit]{
+  height:35px;
+  border-radius: 2px;
+  width: auto;
+}

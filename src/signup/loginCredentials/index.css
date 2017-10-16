@@ -1,0 +1,25 @@
+.validation-error{
+  float: left;
+}
+input[type="email"], input[type="password"],button{
+  width: 90%;
+  height:30px;
+  border-width: thin;
+  border-radius: 2px;
+  border-color: #aaa;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  font-size: 12px;
+}
+.button-forward{
+  float: right;
+  width: 80px;
+}
+input[type="password"]:focus,input[type="email"]:focus,input:active,button:focus{
+  outline: none;
+  border-width: thin;
+  border-radius: 2px;
+  border-color: #aaa;
+}

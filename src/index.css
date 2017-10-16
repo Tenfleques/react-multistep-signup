@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #555;
+}
+.border-primary{
+  border: solid thin #428bca;
+}
+form{
+  padding-top: 20px;
+}
+.bg-primary{
+  background-color: #428bca;
+}
+.text-primary{
+  color: #428bca;
+}
+.text-success {
+  color: #5cb85c;
+}
+.left-border-no-radius{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.right-border-no-radius{
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.no-radius{
+  border-radius: 0px;
+}
